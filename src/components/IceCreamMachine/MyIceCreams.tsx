@@ -1,4 +1,4 @@
-import { IceCream } from "@/machines/IceCreamMachine/machine";
+import { IceCream } from "@/machines/IceCreamMachine";
 import { Box } from "@gemini/core";
 
 interface MyIceCreamsProps {

@@ -1,4 +1,4 @@
-import { Flavor } from "@/machines/IceCreamMachine/machine";
+import { Flavor } from "@/machines/IceCreamMachine";
 import { PressEventHandler } from "@gemini/core";
 import { Button } from "@gemini/ui";
 

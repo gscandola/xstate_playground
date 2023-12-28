@@ -1,7 +1,7 @@
 import { Box } from "@gemini/core";
 import React from "react";
 import { StateFrom } from "xstate";
-import IceCreamMachine from "@/machines/IceCreamMachine/machine";
+import IceCreamMachine from "@/machines/IceCreamMachine";
 
 const getStateLabel = (state: StateFrom<typeof IceCreamMachine>) => {
   if (state.matches("idle")) return "Idle";
